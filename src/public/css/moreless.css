@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.moreless ul{
+  position: relative;
+  list-style-type: none;
+  margin: 0px;
+  text-align: right;
+  float:right;
+  width: 100%;
+}
+
+.moreless.big ul{
+  padding-right: 120px;
+}
+
+
+* html .moreless ul{ /*IE only rule. Delete extra margin-bottom*/
+  margin-bottom: 0;
+}
+.moreless ul li{
+  display:inline;
+  text-align:center;
+  color:#FFFFFF;
+}
+.moreless li
+{
+  float: left;
+ 
+}
+
+.moreless li img
+{
+  float: none;
+padding-top: 10px;
+  width: 40px;
+ 
+}
+
+
+.moreless li b
+{
+  float: left;
+  width: 100%;
+ padding: 0 0 16px 0;
+}
+
+
+.moreless li.morebtn
+{
+ margin: 20px 2% 0 2%;
+  width: 46%;
+}
+
+.moreless li.morebtn.big
+{
+ margin: 20px 20px 0 20px;
+  width: auto;
+}
+
+
+.moreless li .outerContainer
+{
+  display: table;
+  height: 40px;
+  
+  overflow: hidden;
+  width: 100%;
+    font-size:11px;
+  color:#FFFFFF;
+  background-color:#D72027;
+         -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+  border-radius: 10px;
+      -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+}
+
+
+.moreless li.morebtn.big .outerContainer
+{
+
+  height: 60px;
+  padding: 0 30px;
+    font-size:30px;
+line-height: 60px;
+         -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -khtml-border-radius: 60px;
+  border-radius: 60px;
+      -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0);
+border: 4px solid #D72027;
+     color:#D72027;
+  background-color:#fff;
+}
+
+
+
+.moreless li span .outerContainer {
+  display: table;
+  height: 40px;
+  overflow: hidden;
+  width: 100%;
+    font-size:11px;
+  color:#0088CC;
+  background-color:#FFFFFF;
+         -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+  border-radius: 5px;
+      -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 1px #FFFFFF;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  border: 1px solid #FFFFFF;
+  } 
+.moreless li .outerContainer:Hover, .moreless li .outerContainer .active-tab
+{
+    color:#FFFFFF;
+  background-color:#D36772;
+}
+
+.moreless li.big .outerContainer:Hover, .moreless li.big .outerContainer .active-tab
+{
+
+  background-color:#D72027;
+}
+
+
+.moreless li .outerContainer .innerContainer
+{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.moreless li .outerContainer .innerContainer .element a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0px 5px;
+  display: block;
+}
+
+.moreless li.big .outerContainer .innerContainer .element a
+{
+  color: #D72027;
+  text-decoration: none;
+  padding: 0px 5px;
+  display: block;
+}
+
+
+  
+.moreless li .outerContainer:Hover .innerContainer .element a
+{
+  color: #FFFFFF;
+  text-decoration: none;      
+}
+
+.moreless li.big .outerContainer:Hover .innerContainer .element a
+{
+ 
+  background-color: #D72027;     
+}
+
+/* CHECKBOX CONTAINER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.moreless .container {
+  position: relative;
+  height: auto;
+   width: 100%;
+  border-top: 0;
+}
+
+.moreless [type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.moreless label {
+  background: #D72027;
+  display: block;
+  width: 12.66666666666667%;
+  height: 83px;
+  cursor: pointer;
+  position: absolute;
+  top: -83px;
+  right: 2%;
+  transition: top .45s cubic-bezier(.44, .99, .48, 1);
+  -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+  border-radius: 10px;
+   -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.6);
+}
+
+
+.moreless.big label {
+  background: #D72027;
+  display: block;
+  width: 100px;
+  height: 83px;
+  cursor: pointer;
+  position: absolute;
+  top: -83px;
+  right: -120px;
+ 
+}
+/*
+ * use the rule below for testing purposes
+ * label:hover {
+ *    background: yellow;
+ *  }
+ */
+
+.moreless label:hover {
+  background: #D36772;
+}
+.moreless label:before,
+.moreless label:after {
+
+}
+
+.moreless label:before {
+  position: absolute;
+  content: 'Show More';
+    font-size: 11px;
+    font-weight: bold;
+        white-space: pre;
+        display: inline;
+        top: 78px;
+        left: 50%;
+        transform: translate(-50%, -25px);
+}
+
+.moreless.big label:before {
+  content: 'More Roles';
+   
+}
+
+.moreless label:after {
+float: left;
+width: 20%;
+margin: 20px 40% 0 40%;
+  content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 113.39 70.87' style='enable-background:new 0 0 113.39 70.87;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath class='st0' d='M4.34,25.06c-5.78-5.73-5.78-15.02,0-20.76c5.78-5.73,15.16-5.73,20.94,0l31.41,31.13L88.11,4.3 c5.78-5.73,15.16-5.73,20.94,0s5.78,15.02,0,20.76L67.16,66.57c-5.78,5.73-15.16,5.73-20.94,0L4.34,25.06z'/%3E%3C/svg%3E");
+  
+}
+
+
+
+.moreless input[type="checkbox"] ~ ul {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .45s cubic-bezier(.44, .99, .48, 1);
+}
+/* CHECKED STATE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.moreless [type="checkbox"]:checked ~ ul {
+  /**
+   * the value of the `max-height` property specifies the transition speed
+   * set a very big value (e.g. 9999px) to see the difference
+   */
+  
+  max-height: 110px;
+}
+
+.moreless [type="checkbox"]:checked + label {
+ top: -83px;
+}
+
+.moreless [type="checkbox"]:checked + label:before {
+  content: 'Show Less';
+}
+
+.moreless.big [type="checkbox"]:checked + label:before {
+  content: 'Less Roles';
+}
+
+
+.moreless [type="checkbox"]:checked + label:after {
+   content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 113.39 70.87' style='enable-background:new 0 0 113.39 70.87;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath class='st0' d='M4.34,45.81c-5.78,5.73-5.78,15.02,0,20.76c5.78,5.73,15.16,5.73,20.94,0l31.41-31.13l31.41,31.13 c5.78,5.73,15.16,5.73,20.94,0c5.78-5.73,5.78-15.02,0-20.76L67.16,4.3C61.38-1.43,52-1.43,46.22,4.3L4.34,45.81z'/%3E%3C/svg%3E");
+}
+
+.moreless ul li:last-child {
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 400px) {
+.moreless li.morebtn
+{
+
+  width: 29.33333333333333%;
+}
+
+}
+
+@media only screen and (min-width: 800px) {
+.moreless li.morebtn
+{
+
+  width: 12.66666666666667%;
+}
+
+}

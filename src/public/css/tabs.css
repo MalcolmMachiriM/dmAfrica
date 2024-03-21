@@ -1,0 +1,355 @@
+
+h2.title {
+  float: left;
+  color: #9B212D;
+  text-align: left;
+  font-size: 2.6em;
+   padding: 3px 10% 16px 10%;
+
+}
+
+.warpper {
+   padding-top: 140px;
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.warpper.careers {
+   background: #3E3E3F;
+padding: 180px 10% 0 10%;
+   height: 400px;
+   background-image: url('../img/bk-careers.png');
+  display: block;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warpper.insurance {
+  padding-top: 20px;
+  position: relative;
+   background: #3E3E3F;
+margin: 180px 10% 0 10%;
+width: 80%;
+   height: 400px;
+   background-position: 50% 50%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+      -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.warpper.insurance.accident {
+background-image: url('../img/bk-insurance-accident.png');
+}
+
+.warpper.insurance.aviation {
+background-image: url('../img/bk-insurance-aviation.png');
+}
+
+
+.warpper.insurance.business {
+background-image: url('../img/bk-insurance-business.png');
+}
+
+.warpper.insurance.car {
+background-image: url('../img/bk-insurance-car.png');
+}
+
+.warpper.insurance.cellphone {
+background-image: url('../img/bk-insurance-cellphone.png');
+}
+
+.warpper.insurance.cybersecurity {
+background-image: url('../img/bk-insurance-cybersecurity.png');
+}
+
+.warpper.insurance.construction {
+background-image: url('../img/bk-insurance-construction.png');
+}
+
+
+.warpper.insurance.contractors {
+background-image: url('../img/bk-insurance-contractors.png');
+}
+
+.warpper.insurance.fleet {
+background-image: url('../img/bk-insurance-fleet.png');
+}
+
+.warpper.insurance.interruption {
+background-image: url('../img/bk-insurance-interruption.png');
+}
+
+.warpper.insurance.laptop {
+background-image: url('../img/bk-insurance-laptop.png');
+}
+
+.warpper.insurance.liability {
+background-image: url('../img/bk-insurance-liability.png');
+}
+
+.warpper.insurance.logistics {
+background-image: url('../img/bk-insurance-logistics.png');
+}
+
+.warpper.insurance.motorcycle {
+background-image: url('../img/bk-insurance-motorcycle.png');
+}
+
+.warpper.insurance.pet {
+background-image: url('../img/bk-insurance-pet.png');
+}
+
+.warpper.insurance.professional {
+background-image: url('../img/bk-insurance-professional.png');
+}
+
+.warpper.insurance.tracker {
+background-image: url('../img/bk-insurance-tracker.png');
+}
+
+.warpper.insurance.travel {
+background-image: url('../img/bk-insurance-travel.png');
+}
+
+.warpper.insurance.warranty {
+background-image: url('../img/bk-insurance-warranty.png');
+}
+
+
+.warpper.insurancebtm {
+  float: left;
+  padding-top: 20px;
+  position: relative;
+   background: #3E3E3F;
+margin: 0px;
+width: 100%;
+   height: 400px;
+   background-position: 50% 50%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warpper.insurancebtm.accident {
+background-image: url('../img/bk-insurance-accident-btm.png');
+}
+
+.warpper.insurancebtm.aviation {
+background-image: url('../img/bk-insurance-aviation-btm.png');
+}
+
+.warpper.insurancebtm.business {
+background-image: url('../img/bk-insurance-business-btm.png');
+}
+
+.warpper.insurancebtm.car {
+background-image: url('../img/bk-insurance-car-btm.png');
+}
+
+.warpper.insurancebtm.cellphone {
+background-image: url('../img/bk-insurance-cellphone-btm.png');
+}
+
+.warpper.insurancebtm.cybersecurity {
+background-image: url('../img/bk-insurance-cybersecurity-btm.png');
+}
+
+.warpper.insurancebtm.construction {
+background-image: url('../img/bk-insurance-construction-btm.png');
+}
+
+.warpper.insurancebtm.contractors {
+background-image: url('../img/bk-insurance-contractors-btm.png');
+}
+
+.warpper.insurancebtm.fleet {
+background-image: url('../img/bk-insurance-fleet-btm.png');
+}
+
+.warpper.insurancebtm.interruption{
+background-image: url('../img/bk-insurance-interruption-btm.png');
+}
+
+
+.warpper.insurancebtm.laptop {
+background-image: url('../img/bk-insurance-laptop-btm.png');
+}
+
+.warpper.insurancebtm.liability {
+background-image: url('../img/bk-insurance-liability-btm.png');
+}
+
+.warpper.insurancebtm.logistics {
+background-image: url('../img/bk-insurance-logistics-btm.png');
+}
+
+.warpper.insurancebtm.motorcycle {
+background-image: url('../img/bk-insurance-motorcycle-btm.png');
+}
+
+.warpper.insurancebtm.pet {
+background-image: url('../img/bk-insurance-pet-btm.png');
+}
+
+.warpper.insurancebtm.professional {
+background-image: url('../img/bk-insurance-professional-btm.png');
+}
+
+.warpper.insurancebtm.tracker {
+background-image: url('../img/bk-insurance-tracker-btm.png');
+}
+
+.warpper.insurancebtm.travel {
+background-image: url('../img/bk-insurance-travel-btm.png');
+}
+
+.warpper.insurancebtm.warranty {
+background-image: url('../img/bk-insurance-warranty-btm.png');
+}
+
+.warpper.products {
+  float: left;
+   background: #3E3E3F;
+padding: 180px 10% 40px 10%;
+
+   background-image: url('../img/bk-products.jpg');
+  display: block;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warpper.bannertp h1 {
+   color: #ffffff;
+   font-size: 40px;
+   padding-bottom: 10px;
+}
+
+.warpper.bannertp h1.insurance {
+  text-transform: uppercase;
+   color: #000000;
+   font-size: 50px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   line-height: 50px;
+
+}
+
+.warpper.bannertp h1.insurance.wht {
+ color: #ffffff;
+
+}
+
+.warpper h1.insurancebtm {
+  text-transform: none;
+   color: #fff;
+   font-size: 70px;
+   padding-bottom: 10px;
+   padding-left: 10%;
+
+}
+
+.warpper h1.insurancebtm span {
+  text-transform: uppercase;
+  float: left;
+  width: 100%;
+   color: #fff;
+   font-size: 50px;
+   padding-bottom: 10px;
+
+}
+
+
+.warpper.bannertp h1 span{
+   font-size: 70px;
+   line-height: 50px;
+
+}
+
+
+
+.tabs {
+  padding: 0 10%;
+  background: #D36772;
+}
+
+.tab {
+float: left;
+  cursor: pointer;
+  padding: 5px 20px;
+  margin: 0;
+  border-right: 1px solid #ffffff;
+  background: #D36772;
+  display: inline-block;
+  color: #fff;
+  
+}
+
+.panels {
+ background: url("../img/bk-main-cloud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    min-height: 100vh;
+    overflow:hidden;
+    background-position: 100% 100%;
+
+  min-height: 300px;
+  width: 100%;
+    padding: 0 10%;
+  overflow: hidden;
+}
+
+.panel {
+  display: none;
+  animation: fadein 0.8s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.panel-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.radio {
+  display: none;
+}
+
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel {
+  display: block;
+}
+
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab {
+  background: #9B212D;
+  
+}
+
+iframe {
+    overflow-clip-margin: content-box !important;
+    border-width: 0;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+height: 100vh;
+    width: 80%; 
+    padding: 0 0 0 1%;   
+   margin-top: -40px;
+
+}

@@ -1,0 +1,299 @@
+hr {
+  border: 0;
+  border-bottom: 1px dashed #2E181A;
+  background: #2E181A;
+  width: 50%;
+}
+
+/*=============== READ MORE READ LESS ============*/
+/******************** Danish **********************/
+/*************** See more wrapper *****************/
+/**************************************************/
+
+
+
+.first-state,
+.second-state,
+.third-state,
+.fourth-state,
+.fifth-state,
+.sixth-state,
+.seventh-state,
+.eight-state,
+.nine-state,
+.ten-state
+
+{
+	display: none;
+}
+
+.wrapper-target .first-target,
+.wrapper-target .second-target,
+.wrapper-target .third-target,
+.wrapper-target .fourth-target,
+.wrapper-target .fifth-target,
+.wrapper-target .sixth-target,
+.wrapper-target .seventh-target,
+.wrapper-target .eight-target,
+.wrapper-target .nine-target,
+.wrapper-target .ten-target
+{
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .25s ease;
+}
+
+.first-state:checked ~ .wrapper-wrap .first-wrap .first-target,
+.second-state:checked ~ .wrapper-wrap .second-wrap .second-target,
+.third-state:checked ~ .wrapper-wrap .third-wrap .third-target,
+.fourth-state:checked ~ .wrapper-wrap .fourth-wrap .fourth-target,
+.fifth-state:checked ~ .wrapper-wrap .fifth-wrap .fifth-target,
+.sixth-state:checked ~ .wrapper-wrap .sixth-wrap .sixth-target,
+.seventh-state:checked ~ .wrapper-wrap .seventh-wrap .seventh-target,
+.eight-state:checked ~ .wrapper-wrap .eight-wrap .eight-target,
+.nine-state:checked ~ .wrapper-wrap .nine-wrap .nine-target,
+.ten-state:checked ~ .wrapper-wrap .ten-wrap .ten-target
+ {
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+}
+
+.first-state:checked ~ .wrapper-wrap .first-wrap .first-target ul,
+.second-state:checked ~ .wrapper-wrap .second-wrap .second-target ul,
+.third-state:checked ~ .wrapper-wrap .third-wrap .third-target ul,
+.fourth-state:checked ~ .wrapper-wrap .fourth-wrap .fourth-target ul,
+.fifth-state:checked ~ .wrapper-wrap .fifth-wrap .fifth-target ul,
+.sixth-state:checked ~ .wrapper-wrap .sixth-wrap .sixth-target ul,
+.seventh-state:checked ~ .wrapper-wrap .seventh-wrap .seventh-target ul,
+.eight-state:checked ~ .wrapper-wrap .eight-wrap .eight-target ul,
+.nine-state:checked ~ .wrapper-wrap .nine-wrap .nine-target ul,
+.ten-state:checked ~ .wrapper-wrap .ten-wrap .ten-target ul  {
+	margin-left: 36px;
+}
+
+
+
+.first-state ~ .wrapper-wrap .first-trigger:after,
+.second-state ~ .wrapper-wrap .second-trigger:after,
+.third-state ~ .wrapper-wrap .third-trigger:after,
+.fourth-state ~ .wrapper-wrap .fourth-trigger:after,
+.fifth-state ~ .wrapper-wrap .fifth-trigger:after,
+.sixth-state ~ .wrapper-wrap .sixth-trigger:after,
+.seventh-state ~ .wrapper-wrap .seventh-trigger:after,
+.eight-state ~ .wrapper-wrap .eight-trigger:after,
+.nine-state ~ .wrapper-wrap .nine-trigger:after,
+.ten-state ~ .wrapper-wrap .ten-trigger:after {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 40px;
+	content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 60 60' style='enable-background:new 0 0 60 60;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%239A1E28;%7D%0A%3C/style%3E%3Cpath class='st0' d='M30,0C13.43,0,0,13.43,0,30s13.43,30,30,30s30-13.43,30-30S46.57,0,30,0z M30,38.09L13.83,21.91h6.27L30,31.82 l9.91-9.91h6.27L30,38.09z'/%3E%3C/svg%3E");
+}
+
+.first-state:hover ~ .wrapper-wrap .first-trigger:after,
+.second-state:hover ~ .wrapper-wrap .second-trigger:after,
+.third-state:hover ~ .wrapper-wrap .third-trigger:after,
+.fourth-state:hover ~ .wrapper-wrap .fourth-trigger:after,
+.fifth-state:hover ~ .wrapper-wrap .fifth-trigger:after,
+.sixth-state:hover ~ .wrapper-wrap .sixth-trigger:after,
+.seventh-state:hover ~ .wrapper-wrap .seventh-trigger:after,
+.eight-state:hover ~ .wrapper-wrap .eight-trigger:after,
+.nine-state:hover ~ .wrapper-wrap .nine-trigger:after,
+.ten-state:hover ~ .wrapper-wrap .ten-trigger:after {
+		position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 40px;
+content: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 60 60' style='enable-background:new 0 0 60 60;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23EE1D23;%7D%0A%3C/style%3E%3Cpath class='st0' d='M30,0C13.43,0,0,13.43,0,30s13.43,30,30,30s30-13.43,30-30C60.01,13.43,46.58,0,30,0z M39.92,34.7l-9.91-9.91 L20.1,34.7h-6.27l16.18-16.18L46.19,34.7H39.92z'/%3E%3C/svg%3E");
+}
+
+.first-state ~ .first-wrap,
+.second-state ~ .second-wrap,
+.third-state ~ .third-wrap,
+.fourth-state ~ .fourth-wrap,
+.fifth-state ~ .fifth-wrap,
+.sixth-state ~ .sixth-wrap,
+.seventh-state ~ .seventh-wrap,
+.eight-state ~ .eight-wrap, 
+.nine-state ~ .nine-wrap,
+.ten-state ~ .ten-wrap {
+	display: none;
+}
+
+.toggg {
+
+	background-color:#981A26 !important;
+color: #fff !important;
+padding-bottom: 5px;
+}
+
+
+.first-state:checked ~ .first-wrap,
+.second-state:checked ~ .second-wrap,
+.third-state:checked ~ .third-wrap,
+.fourth-state:checked ~ .fourth-wrap,
+.fifth-state:checked ~ .fifth-wrap,
+.sixth-state:checked ~ .sixth-wrap,
+.seventh-state:checked ~ .seventh-wrap,
+.eight-state:checked ~ .eight-wrap, 
+.nine-state:checked ~ .nine-wrap,
+.ten-state:checked ~ .ten-wrap {
+	display: block;
+}
+
+.first-target img,
+.second-target img,
+.third-target img,
+.fourth-target img, 
+.fifth-target img,
+.sixth-target img, 
+.seventh-target img,
+.eight-target img,
+.nine-target img,
+.ten-target img   {
+	height: 0;
+}
+
+.first-state:checked ~ .wrapper-wrap .first-target img,
+.second-state:checked ~ .wrapper-wrap .second-target img,
+.third-state:checked ~ .wrapper-wrap .third-target img,
+.fourth-state:checked ~ .wrapper-wrap .fourth-target img, 
+.fifth-state:checked ~ .wrapper-wrap .fifth-target img,
+.sixth-state:checked ~ .wrapper-wrap .sixth-target img, 
+.seventh-state:checked ~ .wrapper-wrap .seventh-target img,
+.eight-state:checked ~ .wrapper-wrap .eight-target img, 
+.nine-state:checked ~ .wrapper-wrap .nine-target img,
+.ten-state:checked ~ .wrapper-wrap .ten-target img  {
+	height: auto;
+}
+
+.first-target p,
+.second-target p,
+.third-target p,
+.fourth-target p, 
+.fifth-target p,
+.sixth-target p, 
+.seventh-target p,
+.eight-target p,
+.nine-target p,
+.ten-target p {
+	display: none;
+}
+
+
+
+
+
+.first-state:checked ~ .wrapper-wrap .first-target p,
+.second-state:checked ~ .wrapper-wrap .second-target p,
+.third-state:checked ~ .wrapper-wrap .third-target p,
+.fourth-state:checked ~ .wrapper-wrap .fourth-target p, 
+.fifth-state:checked ~ .wrapper-wrap .fifth-target p,
+.sixth-state:checked ~ .wrapper-wrap .sixth-target p, 
+.seventh-state:checked ~ .wrapper-wrap .seventh-target p,
+.eight-state:checked ~ .wrapper-wrap .eight-target p, 
+.nine-state:checked ~ .wrapper-wrap .nine-target p,
+.ten-state:checked ~ .wrapper-wrap .ten-target p  {
+	display: block;
+	padding: 5px 20px 0 20px;
+	margin-bottom: 20px;
+}
+
+.first-state:checked ~ .wrapper-wrap .first-target p b,
+.second-state:checked ~ .wrapper-wrap .second-target p b,
+.third-state:checked ~ .wrapper-wrap .third-target p b,
+.fourth-state:checked ~ .wrapper-wrap .fourth-target p b, 
+.fifth-state:checked ~ .wrapper-wrap .fifth-target p b,
+.sixth-state:checked ~ .wrapper-wrap .sixth-target p b, 
+.seventh-state:checked ~ .wrapper-wrap .seventh-target p b,
+.eight-state:checked ~ .wrapper-wrap .eight-target p b, 
+.nine-state:checked ~ .wrapper-wrap .nine-target p b,
+.ten-state:checked ~ .wrapper-wrap .ten-target p b  {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+
+
+.first-target iframe,
+.second-target iframe,
+.third-target iframe,
+.fourth-target iframe,
+.fifth-target iframe,
+.sixth-target iframe,
+.seventh-target iframe,
+.eight-target iframe,
+.nine-target iframe,
+.ten-target iframe {
+	height: 0;
+}
+
+.first-state:checked ~ .wrapper-wrap .first-target iframe,
+.second-state:checked ~ .wrapper-wrap .second-target iframe,
+.third-state:checked ~ .wrapper-wrap .third-target iframe,
+.fourth-state:checked ~ .wrapper-wrap .fourth-target iframe, 
+.fifth-state:checked ~ .wrapper-wrap .fifth-target iframe,
+.sixth-state:checked ~ .wrapper-wrap .sixth-target iframe, 
+.seventh-state:checked ~ .wrapper-wrap .seventh-target iframe,
+.eight-state:checked ~ .wrapper-wrap .eight-target iframe, 
+.nine-state:checked ~ .wrapper-wrap .nine-target iframe,
+.ten-state:checked ~ .wrapper-wrap .ten-target iframe {
+	height: 100%;
+}
+
+.wrapper-wrap .first-trigger,
+.wrapper-wrap .second-trigger,
+.wrapper-wrap .third-trigger,
+.wrapper-wrap .fourth-trigger, 
+.wrapper-wrap .fifth-trigger,
+.wrapper-wrap .sixth-trigger, 
+.wrapper-wrap .seventh-trigger,
+.wrapper-wrap .eight-trigger, 
+.wrapper-wrap .nine-trigger,
+.wrapper-wrap .ten-trigger  {
+position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 .5em 0 20px;
+	margin-top: 20px;
+	background-color:#BCBDC0;
+	color: #9A1E28;
+	font-size: 1.6rem;
+	font-weight: bold;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 30px;
+	width: 100%;
+}
+
+
+.togg {
+color: #EE1D23 !important;
+	border-radius: 0px !important;
+	background-color:#fff !important;
+	border-top: 5px solid #981A26;
+	border-left: 5px solid #981A26;
+	border-right: 5px solid #981A26;
+height: 70px !important;
+}
+
+
+.wrapper-wrap .first-trigger:hover,
+.wrapper-wrap .second-trigger:hover,
+.wrapper-wrap .third-trigger:hover,
+.wrapper-wrap .fourth-trigger:hover, 
+.wrapper-wrap .fifth-trigger:hover,
+.wrapper-wrap .sixth-trigger:hover, 
+.wrapper-wrap .seventh-trigger:hover,
+.wrapper-wrap .eight-trigger:hover, 
+.wrapper-wrap .nine-trigger:hover,
+.wrapper-wrap .ten-trigger:hover {
+	background-color: #9A1E28;
+	opacity: 1;
+	color:#fff;
+}

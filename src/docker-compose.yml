@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  # Laravel Application
+  app:
+    
+    build:
+      args:
+        user: dmafrica
+        uid: 1000
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:80"  # Adjust port mapping to match NGINX's configuration
+    volumes:
+      - .:/var/www/html  # Mount Laravel code into the container
+    networks:
+      - dmafrica
+      - db_app-shared
+
+    environment:
+      DB_HOST: db_db_1  # Update to match the name of your MySQL service
+      DB_DATABASE: dmafrica
+      DB_USERNAME: adminuser
+      DB_PASSWORD: DMAfrica2024!
+      MAIL_MAILER: smtp
+      MAIL_HOST: smtp.mail.yahoo.com
+      MAIL_PORT: 587
+      MAIL_USERNAME: eddymnemo@yahoo.com
+      MAIL_PASSWORD: cmfpowcssvtdkemb
+      MAIL_ENCRYPTION: ssl
+      MAIL_FROM_ADDRESS: eddymnemo@yahoo.com
+      MAIL_FROM_NAME: "${APP_NAME}"
+      MAIL_AUTH_MODE: login
+
+  # NGINX service definition...
+  nginx:
+    image: nginx:1.17-alpine
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+      - "8443:443"
+    environment:
+      - PHP_MEMORY_LIMIT=1G
+    volumes:
+      - ./src:/var/www/html  # Assuming your Laravel code is in ./src directory
+    networks:
+      - dmafrica
+    depends_on:
+      - app
+        
+
+networks:
+  dmafrica:
+    driver: bridge
+  db_app-shared:
+    external: true
