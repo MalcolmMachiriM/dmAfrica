@@ -35,7 +35,7 @@ class CameraFormController extends Controller
         $cameraInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new CameraInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new CameraInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

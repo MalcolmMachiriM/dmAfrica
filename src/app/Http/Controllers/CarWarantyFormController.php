@@ -37,7 +37,7 @@ class CarWarantyFormController extends Controller
         $carwarantyInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new CarWarantyInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new CarWarantyInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

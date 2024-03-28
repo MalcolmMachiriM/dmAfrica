@@ -37,7 +37,7 @@ class FleetCoverFormController extends Controller
         $fleetcoverInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new FleetCoverInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new FleetCoverInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

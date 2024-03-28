@@ -36,7 +36,7 @@ class PetFormController extends Controller
         $petInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo45@gmail.com')->send(new PetInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new PetInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

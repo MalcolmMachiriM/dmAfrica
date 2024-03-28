@@ -34,7 +34,7 @@ class MedicalFormController extends Controller
         $medicalInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new MedicalInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new MedicalInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

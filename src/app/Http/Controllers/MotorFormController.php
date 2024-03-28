@@ -39,7 +39,7 @@ class MotorFormController extends Controller
         $motorInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new MotorInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new MotorInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

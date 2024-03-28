@@ -36,7 +36,7 @@ class ContractorsFormController extends Controller
         $contractorsInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new ContractorsInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new ContractorsInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

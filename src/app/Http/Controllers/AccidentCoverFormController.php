@@ -37,7 +37,7 @@ class AccidentCoverFormController extends Controller
         $accidentcoverInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new AccidentCoverInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new AccidentCoverInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

@@ -36,7 +36,7 @@ class ConstructionFormController extends Controller
         $constructionInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new ConstructionInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new ConstructionInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');

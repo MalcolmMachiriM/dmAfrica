@@ -36,7 +36,7 @@ class CombinedBusinessFormController extends Controller
         $combinedbusinessInsurance->save();
     
         // Send email
-        Mail::to('eddymnemo@yahoo.com')->send(new CombinedBusinessInsuranceFormSubmitted($request->all()));
+        Mail::to('online@dmafrica.co.za')->send(new CombinedBusinessInsuranceFormSubmitted($request->all()));
     
         // Redirect back with success message
         return redirect()->back()->with('success', 'Form submitted successfully!');
